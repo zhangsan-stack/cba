@@ -1,0 +1,30 @@
+2020-07-19 20:43:57,564 INFO initializing Raft sub-system
+
+2020-07-19 20:43:57,342 INFO server list is updated, new: 1 servers: [{"adWeight":0,"alive":false,"ip":"192.168.1.102","key":"192.168.1.102:0","lastRefTime":0,"servePort":0,"site":"unknown","weight":1}]
+
+2020-07-19 20:43:57,596 INFO finish loading all datums, size: 0 cost 25 ms.
+
+2020-07-19 20:43:57,597 INFO raft notifier started
+
+2020-07-19 20:43:57,601 INFO cache loaded, datum count: 0, current term: 0
+
+2020-07-19 20:43:57,601 INFO finish to load data from disk, cost: 30 ms.
+
+2020-07-19 20:43:57,612 INFO timer started: leader timeout ms: 15000, heart-beat timeout ms: 5000
+
+2020-07-19 20:43:57,613 INFO raft peers changed: [{"adWeight":0,"alive":false,"ip":"192.168.1.102","key":"192.168.1.102:0","lastRefTime":0,"lastRefTimeStr":"","servePort":0,"site":"unknown","weight":1}]
+
+2020-07-19 20:43:57,733 INFO add listener: com.alibaba.nacos.naming.domains.meta.
+
+2020-07-19 20:44:01,038 INFO add listener: com.alibaba.nacos.naming.domains.meta.00-00---000-NACOS_SWITCH_DOMAIN-000---00-00
+
+2020-07-19 20:44:07,329 INFO server list is updated, new: 1 servers: [{"adWeight":0,"alive":false,"ip":"192.168.1.102","key":"192.168.1.102:8848","lastRefTime":0,"lastRefTimeStr":"","servePort":8848,"site":"unknown","weight":1}]
+
+2020-07-19 20:44:07,329 INFO server list is updated, dead: 1, servers: [{"adWeight":0,"alive":false,"ip":"192.168.1.102","key":"192.168.1.102:0","lastRefTime":0,"lastRefTimeStr":"","servePort":0,"site":"unknown","weight":1}]
+
+2020-07-19 20:44:07,329 INFO raft peers changed: [{"adWeight":0,"alive":false,"ip":"192.168.1.102","key":"192.168.1.102:8848","lastRefTime":0,"lastRefTimeStr":"","servePort":8848,"site":"unknown","weight":1}]
+
+2020-07-19 20:44:09,368 INFO raft peers changed: [{"adWeight":0,"alive":false,"ip":"192.168.1.102","key":"192.168.1.102:8848","lastRefTime":0,"lastRefTimeStr":"","servePort":8848,"site":"unknown","weight":1}]
+
+2020-07-19 20:44:34,144 INFO add listener: com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@serverAddr
+

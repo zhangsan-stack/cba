@@ -1,0 +1,32 @@
+2020-07-17 08:35:07,227 INFO initializing Raft sub-system
+
+2020-07-17 08:35:07,026 INFO server list is updated, new: 1 servers: [{"adWeight":0,"alive":false,"ip":"192.168.1.103","key":"192.168.1.103:0","lastRefTime":0,"servePort":0,"site":"unknown","weight":1}]
+
+2020-07-17 08:35:07,246 INFO finish loading all datums, size: 0 cost 3 ms.
+
+2020-07-17 08:35:07,248 INFO raft notifier started
+
+2020-07-17 08:35:07,250 INFO cache loaded, datum count: 0, current term: 0
+
+2020-07-17 08:35:07,250 INFO finish to load data from disk, cost: 22 ms.
+
+2020-07-17 08:35:07,254 INFO raft peers changed: [{"adWeight":0,"alive":false,"ip":"192.168.1.103","key":"192.168.1.103:0","lastRefTime":0,"lastRefTimeStr":"","servePort":0,"site":"unknown","weight":1}]
+
+2020-07-17 08:35:07,256 INFO timer started: leader timeout ms: 15000, heart-beat timeout ms: 5000
+
+2020-07-17 08:35:07,356 INFO add listener: com.alibaba.nacos.naming.domains.meta.
+
+2020-07-17 08:35:10,345 INFO add listener: com.alibaba.nacos.naming.domains.meta.00-00---000-NACOS_SWITCH_DOMAIN-000---00-00
+
+2020-07-17 08:35:17,016 INFO server list is updated, new: 1 servers: [{"adWeight":0,"alive":false,"ip":"192.168.1.103","key":"192.168.1.103:8848","lastRefTime":0,"lastRefTimeStr":"","servePort":8848,"site":"unknown","weight":1}]
+
+2020-07-17 08:35:17,016 INFO server list is updated, dead: 1, servers: [{"adWeight":0,"alive":false,"ip":"192.168.1.103","key":"192.168.1.103:0","lastRefTime":0,"lastRefTimeStr":"","servePort":0,"site":"unknown","weight":1}]
+
+2020-07-17 08:35:17,016 INFO raft peers changed: [{"adWeight":0,"alive":false,"ip":"192.168.1.103","key":"192.168.1.103:8848","lastRefTime":0,"lastRefTimeStr":"","servePort":8848,"site":"unknown","weight":1}]
+
+2020-07-17 08:35:19,044 INFO raft peers changed: [{"adWeight":0,"alive":false,"ip":"192.168.1.103","key":"192.168.1.103:8848","lastRefTime":0,"lastRefTimeStr":"","servePort":8848,"site":"unknown","weight":1}]
+
+2020-07-17 09:33:42,798 INFO add listener: com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@nacos-order-consumer
+
+2020-07-17 09:43:36,826 INFO add listener: com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@nacos-payment-porvider
+

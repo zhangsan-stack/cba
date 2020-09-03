@@ -1,0 +1,4 @@
+2020-07-19 20:44:34,234 INFO DEFAULT_GROUP@@serverAddr {SYNC} {IP-NEW} cluster: default, new ips size: 1, content: [192.168.177.1:8091:unknown:default_1.0_true_false_default]
+
+2020-07-19 20:44:34,261 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@serverAddr, ips: 192.168.177.1:8091_true,
+

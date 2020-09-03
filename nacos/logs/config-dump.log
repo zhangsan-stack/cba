@@ -1,0 +1,12 @@
+2020-07-22 09:45:38,186 INFO [dump-all-ok] nacos-config-client-dev.yaml+DEFAULT_GROUP, 1594549039198, length=57, md5=138590eef587b3740c204b00bdaf42cb
+
+2020-07-22 09:45:38,191 INFO [dump-all-ok] nacos-config-client-test.yaml+DEFAULT_GROUP, 1594555450372, length=58, md5=56390b2f12cd675ef63c8e7be524ef89
+
+2020-07-22 09:45:38,191 INFO [dump-all-ok] nacos-config-client-info.yaml+DEV_GROUP, 1594555638764, length=34, md5=a316700ab5f058cfd7dde30b5762e596
+
+2020-07-22 09:45:38,192 INFO [dump-all-ok] nacos-config-client-dev.yaml+DEFAULT_GROUP, 1594556214535, length=61, md5=0bfa090926cdfb25766f2482a63b36b1
+
+2020-07-22 09:45:38,193 INFO [dump-all-ok] nacos-config-client-dev.yaml+DEV_GROUP, 1594556303900, length=94, md5=413e172052feeae8dff003713c922be0
+
+2020-07-22 09:45:38,193 INFO [dump-all-ok] nacos-config-client-test.yaml+TEST_GROUP, 1594556363441, length=49, md5=4a57bed0118a16094e99200ba533a5a9
+

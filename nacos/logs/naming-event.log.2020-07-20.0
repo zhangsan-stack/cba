@@ -1,0 +1,30 @@
+2020-07-20 08:17:58,057 INFO DEFAULT_GROUP@@serverAddr {SYNC} {IP-NEW} cluster: default, new ips size: 1, content: [192.168.177.1:8091:unknown:default_1.0_true_false_default]
+
+2020-07-20 08:17:58,068 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@serverAddr, ips: 192.168.177.1:8091_true,
+
+2020-07-20 14:50:09,359 INFO DEFAULT_GROUP@@serverAddr {SYNC} {IP-NEW} cluster: default, new ips size: 1, content: [192.168.177.1:8091:unknown:default_1.0_true_false_default]
+
+2020-07-20 14:50:09,367 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@serverAddr, ips: 192.168.177.1:8091_true,
+
+2020-07-20 16:45:16,944 INFO DEFAULT_GROUP@@seata-order-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.102:9001:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-07-20 16:45:16,951 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@seata-order-service, ips: 192.168.1.102:9001_true,
+
+2020-07-20 16:45:16,955 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@seata-order-service, ips: 192.168.1.102:9001_true,
+
+2020-07-20 16:45:19,797 INFO DEFAULT_GROUP@@seata-order-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.102:9001:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-07-20 16:45:19,798 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@seata-order-service, ips: 
+
+2020-07-20 16:45:28,418 INFO DEFAULT_GROUP@@seata-order-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.102:9001:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-07-20 16:45:28,419 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@seata-order-service, ips: 192.168.1.102:9001_true,
+
+2020-07-20 16:45:28,419 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@seata-order-service, ips: 192.168.1.102:9001_true,
+
+2020-07-20 16:47:01,907 INFO {POS} {IP-DISABLED} valid: 192.168.1.102:9001@DEFAULT@DEFAULT_GROUP@@seata-order-service, region: unknown, msg: client timeout after 15000, last beat: 1595234803579
+
+2020-07-20 16:47:09,128 INFO service: DEFAULT_GROUP@@seata-order-service {POS} {IP-ENABLED} valid: 192.168.1.102:9001@DEFAULT, region: unknown, msg: client beat ok
+
+2020-07-20 16:47:09,135 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@seata-order-service, ips: 192.168.1.102:9001_true,
+

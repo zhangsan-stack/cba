@@ -1,0 +1,266 @@
+2020-07-22 09:45:52,969 INFO DEFAULT_GROUP@@seata-account-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.102:2003:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-07-22 09:45:52,974 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@seata-account-service, ips: 192.168.1.102:2003_true,
+
+2020-07-22 09:48:59,773 INFO DEFAULT_GROUP@@seata-account-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.102:2003:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-07-22 09:48:59,774 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@seata-account-service, ips: 
+
+2020-07-22 09:49:14,677 INFO DEFAULT_GROUP@@seata-account-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.102:2003:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-07-22 09:49:14,677 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@seata-account-service, ips: 192.168.1.102:2003_true,
+
+2020-07-22 09:49:58,598 INFO {POS} {IP-DISABLED} valid: 192.168.1.102:2003@DEFAULT@DEFAULT_GROUP@@seata-account-service, region: unknown, msg: client timeout after 15000, last beat: 1595382579722
+
+2020-07-22 09:50:06,912 INFO service: DEFAULT_GROUP@@seata-account-service {POS} {IP-ENABLED} valid: 192.168.1.102:2003@DEFAULT, region: unknown, msg: client beat ok
+
+2020-07-22 09:50:06,916 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@seata-account-service, ips: 192.168.1.102:2003_true,
+
+2020-07-22 09:53:15,711 INFO DEFAULT_GROUP@@seata-account-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.102:2003:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-07-22 09:53:15,712 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@seata-account-service, ips: 
+
+2020-07-22 09:53:26,695 INFO DEFAULT_GROUP@@seata-account-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.102:2003:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-07-22 09:53:26,695 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@seata-account-service, ips: 192.168.1.102:2003_true,
+
+2020-07-22 09:55:37,525 INFO DEFAULT_GROUP@@seata-account-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.102:2003:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-07-22 09:55:37,525 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@seata-account-service, ips: 
+
+2020-07-22 09:55:54,131 INFO DEFAULT_GROUP@@seata-account-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.102:2003:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-07-22 09:55:54,131 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@seata-account-service, ips: 192.168.1.102:2003_true,
+
+2020-07-22 09:56:47,790 INFO DEFAULT_GROUP@@seata-account-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.102:2003:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-07-22 09:56:47,790 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@seata-account-service, ips: 
+
+2020-07-22 09:57:00,320 INFO DEFAULT_GROUP@@seata-account-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.102:2003:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-07-22 09:57:00,320 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@seata-account-service, ips: 192.168.1.102:2003_true,
+
+2020-07-22 09:57:43,752 INFO {POS} {IP-DISABLED} valid: 192.168.1.102:2003@DEFAULT@DEFAULT_GROUP@@seata-account-service, region: unknown, msg: client timeout after 15000, last beat: 1595383045363
+
+2020-07-22 09:57:50,204 INFO service: DEFAULT_GROUP@@seata-account-service {POS} {IP-ENABLED} valid: 192.168.1.102:2003@DEFAULT, region: unknown, msg: client beat ok
+
+2020-07-22 09:57:50,210 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@seata-account-service, ips: 192.168.1.102:2003_true,
+
+2020-07-22 09:59:43,776 INFO {POS} {IP-DISABLED} valid: 192.168.1.102:2003@DEFAULT@DEFAULT_GROUP@@seata-account-service, region: unknown, msg: client timeout after 15000, last beat: 1595383165407
+
+2020-07-22 09:59:59,083 INFO DEFAULT_GROUP@@seata-account-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.102:2003:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2020-07-22 09:59:59,083 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@seata-account-service, ips: 
+
+2020-07-22 10:02:48,540 INFO DEFAULT_GROUP@@seata-account-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.102:2003:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-07-22 10:02:48,541 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@seata-account-service, ips: 192.168.1.102:2003_true,
+
+2020-07-22 10:02:48,546 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@seata-account-service, ips: 192.168.1.102:2003_true,
+
+2020-07-22 10:04:59,499 INFO {POS} {IP-DISABLED} valid: 192.168.1.102:2003@DEFAULT@DEFAULT_GROUP@@seata-account-service, region: unknown, msg: client timeout after 15000, last beat: 1595383483834
+
+2020-07-22 10:05:14,258 INFO DEFAULT_GROUP@@seata-account-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.102:2004:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-07-22 10:05:14,259 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@seata-account-service, ips: 192.168.1.102:2004_true,192.168.1.102:2003_false,
+
+2020-07-22 10:05:14,507 INFO DEFAULT_GROUP@@seata-account-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.102:2003:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2020-07-22 10:05:14,507 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@seata-account-service, ips: 192.168.1.102:2004_true,
+
+2020-07-22 10:10:24,627 INFO {POS} {IP-DISABLED} valid: 192.168.1.102:2004@DEFAULT@DEFAULT_GROUP@@seata-account-service, region: unknown, msg: client timeout after 15000, last beat: 1595383805068
+
+2020-07-22 10:10:27,176 INFO service: DEFAULT_GROUP@@seata-account-service {POS} {IP-ENABLED} valid: 192.168.1.102:2004@DEFAULT, region: unknown, msg: client beat ok
+
+2020-07-22 10:10:27,190 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@seata-account-service, ips: 192.168.1.102:2004_true,
+
+2020-07-22 10:11:31,961 INFO DEFAULT_GROUP@@seata-account-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.102:2004:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-07-22 10:11:31,961 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@seata-account-service, ips: 
+
+2020-07-22 10:11:46,070 INFO DEFAULT_GROUP@@seata-account-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.102:2004:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-07-22 10:11:46,070 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@seata-account-service, ips: 192.168.1.102:2004_true,
+
+2020-07-22 10:12:29,765 INFO {POS} {IP-DISABLED} valid: 192.168.1.102:2004@DEFAULT@DEFAULT_GROUP@@seata-account-service, region: unknown, msg: client timeout after 15000, last beat: 1595383931113
+
+2020-07-22 10:12:39,096 INFO service: DEFAULT_GROUP@@seata-account-service {POS} {IP-ENABLED} valid: 192.168.1.102:2004@DEFAULT, region: unknown, msg: client beat ok
+
+2020-07-22 10:12:39,097 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@seata-account-service, ips: 192.168.1.102:2004_true,
+
+2020-07-22 10:13:56,044 INFO DEFAULT_GROUP@@seata-account-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.102:2004:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-07-22 10:13:56,044 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@seata-account-service, ips: 
+
+2020-07-22 10:14:08,948 INFO DEFAULT_GROUP@@seata-account-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.102:2004:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-07-22 10:14:08,948 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@seata-account-service, ips: 192.168.1.102:2004_true,
+
+2020-07-22 10:15:27,955 INFO DEFAULT_GROUP@@seata-account-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.102:2004:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-07-22 10:15:27,955 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@seata-account-service, ips: 
+
+2020-07-22 10:16:56,986 INFO DEFAULT_GROUP@@seata-account-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.102:2004:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-07-22 10:16:56,988 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@seata-account-service, ips: 192.168.1.102:2004_true,
+
+2020-07-22 10:16:56,994 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@seata-account-service, ips: 192.168.1.102:2004_true,
+
+2020-07-22 10:22:20,015 INFO {POS} {IP-DISABLED} valid: 192.168.1.102:2004@DEFAULT@DEFAULT_GROUP@@seata-account-service, region: unknown, msg: client timeout after 15000, last beat: 1595384522665
+
+2020-07-22 10:22:28,297 INFO service: DEFAULT_GROUP@@seata-account-service {POS} {IP-ENABLED} valid: 192.168.1.102:2004@DEFAULT, region: unknown, msg: client beat ok
+
+2020-07-22 10:22:28,304 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@seata-account-service, ips: 192.168.1.102:2004_true,
+
+2020-07-22 10:29:35,690 INFO {POS} {IP-DISABLED} valid: 192.168.1.102:2004@DEFAULT@DEFAULT_GROUP@@seata-account-service, region: unknown, msg: client timeout after 15000, last beat: 1595384960538
+
+2020-07-22 10:29:50,719 INFO DEFAULT_GROUP@@seata-account-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.102:2004:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2020-07-22 10:29:50,719 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@seata-account-service, ips: 
+
+2020-07-22 10:46:18,853 INFO DEFAULT_GROUP@@seata-account-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.102:2004:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-07-22 10:46:18,854 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@seata-account-service, ips: 192.168.1.102:2004_true,
+
+2020-07-22 10:46:18,860 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@seata-account-service, ips: 192.168.1.102:2004_true,
+
+2020-07-22 10:55:52,530 INFO {POS} {IP-DISABLED} valid: 192.168.1.102:2004@DEFAULT@DEFAULT_GROUP@@seata-account-service, region: unknown, msg: client timeout after 15000, last beat: 1595386536915
+
+2020-07-22 10:56:02,941 INFO DEFAULT_GROUP@@seata-account-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.102:2006:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-07-22 10:56:02,941 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@seata-account-service, ips: 192.168.1.102:2004_false,192.168.1.102:2006_true,
+
+2020-07-22 10:56:02,945 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@seata-account-service, ips: 192.168.1.102:2004_false,192.168.1.102:2006_true,
+
+2020-07-22 10:56:07,544 INFO DEFAULT_GROUP@@seata-account-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.102:2004:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2020-07-22 10:56:07,544 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@seata-account-service, ips: 192.168.1.102:2006_true,
+
+2020-07-22 10:56:56,563 INFO DEFAULT_GROUP@@seata-account-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.102:2006:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-07-22 10:56:56,563 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@seata-account-service, ips: 
+
+2020-07-22 10:57:10,668 INFO DEFAULT_GROUP@@seata-account-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.102:9001:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-07-22 10:57:10,668 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@seata-account-service, ips: 192.168.1.102:9001_true,
+
+2020-07-22 10:58:52,606 INFO {POS} {IP-DISABLED} valid: 192.168.1.102:9001@DEFAULT@DEFAULT_GROUP@@seata-account-service, region: unknown, msg: client timeout after 15000, last beat: 1595386715845
+
+2020-07-22 10:58:56,529 INFO service: DEFAULT_GROUP@@seata-account-service {POS} {IP-ENABLED} valid: 192.168.1.102:9001@DEFAULT, region: unknown, msg: client beat ok
+
+2020-07-22 10:58:56,530 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@seata-account-service, ips: 192.168.1.102:9001_true,
+
+2020-07-22 11:02:49,192 INFO DEFAULT_GROUP@@seata-account-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.102:9001:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-07-22 11:02:49,192 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@seata-account-service, ips: 
+
+2020-07-22 11:03:00,692 INFO DEFAULT_GROUP@@seata-account-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.102:9001:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-07-22 11:03:00,692 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@seata-account-service, ips: 192.168.1.102:9001_true,
+
+2020-07-22 11:03:00,694 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@seata-account-service, ips: 192.168.1.102:9001_true,
+
+2020-07-22 11:11:32,875 INFO {POS} {IP-DISABLED} valid: 192.168.1.102:9001@DEFAULT@DEFAULT_GROUP@@seata-account-service, region: unknown, msg: client timeout after 15000, last beat: 1595387476592
+
+2020-07-22 11:11:38,685 INFO service: DEFAULT_GROUP@@seata-account-service {POS} {IP-ENABLED} valid: 192.168.1.102:9001@DEFAULT, region: unknown, msg: client beat ok
+
+2020-07-22 11:11:38,692 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@seata-account-service, ips: 192.168.1.102:9001_true,
+
+2020-07-22 11:13:33,348 INFO {POS} {IP-DISABLED} valid: 192.168.1.102:9001@DEFAULT@DEFAULT_GROUP@@seata-account-service, region: unknown, msg: client timeout after 15000, last beat: 1595387593859
+
+2020-07-22 11:13:44,663 INFO service: DEFAULT_GROUP@@seata-account-service {POS} {IP-ENABLED} valid: 192.168.1.102:9001@DEFAULT, region: unknown, msg: client beat ok
+
+2020-07-22 11:13:44,667 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@seata-account-service, ips: 192.168.1.102:9001_true,
+
+2020-07-22 11:14:10,801 INFO DEFAULT_GROUP@@seata-account-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.102:9001:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-07-22 11:14:10,801 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@seata-account-service, ips: 
+
+2020-07-22 11:14:22,184 INFO DEFAULT_GROUP@@seata-account-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.102:9001:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-07-22 11:14:22,184 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@seata-account-service, ips: 192.168.1.102:9001_true,
+
+2020-07-22 11:14:38,098 INFO DEFAULT_GROUP@@seata-account-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.102:9001:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-07-22 11:14:38,098 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@seata-account-service, ips: 
+
+2020-07-22 11:14:48,904 INFO DEFAULT_GROUP@@seata-account-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.102:9001:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-07-22 11:14:48,904 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@seata-account-service, ips: 192.168.1.102:9001_true,
+
+2020-07-22 11:14:48,904 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@seata-account-service, ips: 192.168.1.102:9001_true,
+
+2020-07-22 11:16:39,155 INFO DEFAULT_GROUP@@seata-account-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.102:9001:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-07-22 11:16:39,155 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@seata-account-service, ips: 
+
+2020-07-22 11:16:48,529 INFO DEFAULT_GROUP@@seata-account-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.102:9001:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-07-22 11:16:48,530 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@seata-account-service, ips: 192.168.1.102:9001_true,
+
+2020-07-22 11:16:48,530 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@seata-account-service, ips: 192.168.1.102:9001_true,
+
+2020-07-22 11:17:38,532 INFO {POS} {IP-DISABLED} valid: 192.168.1.102:9001@DEFAULT@DEFAULT_GROUP@@seata-account-service, region: unknown, msg: client timeout after 15000, last beat: 1595387838583
+
+2020-07-22 11:17:43,981 INFO service: DEFAULT_GROUP@@seata-account-service {POS} {IP-ENABLED} valid: 192.168.1.102:9001@DEFAULT, region: unknown, msg: client beat ok
+
+2020-07-22 11:17:43,984 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@seata-account-service, ips: 192.168.1.102:9001_true,
+
+2020-07-22 11:36:50,115 INFO DEFAULT_GROUP@@seata-order-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.102:2001:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-07-22 11:36:50,115 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@seata-order-service, ips: 192.168.1.102:2001_true,
+
+2020-07-22 11:36:50,122 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@seata-order-service, ips: 192.168.1.102:2001_true,
+
+2020-07-22 11:37:01,000 INFO DEFAULT_GROUP@@seata-storage-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.102:2002:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-07-22 11:37:01,000 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@seata-storage-service, ips: 192.168.1.102:2002_true,
+
+2020-07-22 11:37:01,002 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@seata-storage-service, ips: 192.168.1.102:2002_true,
+
+2020-07-22 11:50:39,152 INFO {POS} {IP-DISABLED} valid: 192.168.1.102:9001@DEFAULT@DEFAULT_GROUP@@seata-account-service, region: unknown, msg: client timeout after 15000, last beat: 1595389821466
+
+2020-07-22 11:50:49,133 INFO service: DEFAULT_GROUP@@seata-account-service {POS} {IP-ENABLED} valid: 192.168.1.102:9001@DEFAULT, region: unknown, msg: client beat ok
+
+2020-07-22 11:50:49,135 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@seata-account-service, ips: 192.168.1.102:9001_true,
+
+2020-07-22 11:55:20,102 INFO DEFAULT_GROUP@@seata-order-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.102:2001:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-07-22 11:55:20,102 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@seata-order-service, ips: 
+
+2020-07-22 11:55:34,595 INFO DEFAULT_GROUP@@seata-order-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.102:2001:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-07-22 11:55:34,595 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@seata-order-service, ips: 192.168.1.102:2001_true,
+
+2020-07-22 11:56:44,638 INFO DEFAULT_GROUP@@seata-order-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.102:2001:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-07-22 11:56:44,638 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@seata-order-service, ips: 
+
+2020-07-22 11:56:57,597 INFO DEFAULT_GROUP@@seata-order-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.102:2001:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-07-22 11:56:57,597 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@seata-order-service, ips: 192.168.1.102:2001_true,
+
+2020-07-22 11:57:20,965 INFO {POS} {IP-DISABLED} valid: 192.168.1.102:2001@DEFAULT@DEFAULT_GROUP@@seata-order-service, region: unknown, msg: client timeout after 15000, last beat: 1595390222611
+
+2020-07-22 11:57:23,824 INFO service: DEFAULT_GROUP@@seata-order-service {POS} {IP-ENABLED} valid: 192.168.1.102:2001@DEFAULT, region: unknown, msg: client beat ok
+
+2020-07-22 11:57:23,832 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@seata-order-service, ips: 192.168.1.102:2001_true,
+
+2020-07-22 12:00:19,466 INFO {POS} {IP-DISABLED} valid: 192.168.1.102:9001@DEFAULT@DEFAULT_GROUP@@seata-account-service, region: unknown, msg: client timeout after 15000, last beat: 1595390400193
+
+2020-07-22 12:00:21,026 INFO {POS} {IP-DISABLED} valid: 192.168.1.102:2001@DEFAULT@DEFAULT_GROUP@@seata-order-service, region: unknown, msg: client timeout after 15000, last beat: 1595390404127
+
+2020-07-22 12:00:21,540 INFO {POS} {IP-DISABLED} valid: 192.168.1.102:2002@DEFAULT@DEFAULT_GROUP@@seata-storage-service, region: unknown, msg: client timeout after 15000, last beat: 1595390403674
+
+2020-07-22 12:00:34,502 INFO DEFAULT_GROUP@@seata-account-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.102:9001:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2020-07-22 12:00:34,502 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@seata-account-service, ips: 
+
+2020-07-22 12:00:36,042 INFO DEFAULT_GROUP@@seata-order-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.102:2001:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2020-07-22 12:00:36,042 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@seata-order-service, ips: 
+
+2020-07-22 12:00:36,547 INFO DEFAULT_GROUP@@seata-storage-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.102:2002:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2020-07-22 12:00:36,547 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@seata-storage-service, ips: 
+
