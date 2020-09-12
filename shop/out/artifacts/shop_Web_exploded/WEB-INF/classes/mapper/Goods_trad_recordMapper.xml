@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.shop.mapper.Goods_trad_recordMapper">
+    <resultMap id="baseResultMap" type="com.shop.entity.Goods_trad_record">
+        <result column="id" jdbcType="INTEGER" property="id"></result>
+        <result column="goods_id" jdbcType="INTEGER" property="goods_id"></result>
+        <result column="buyer_id" jdbcType="INTEGER" property="buyer_id"></result>
+        <result column="seller_id" jdbcType="INTEGER" property="seller_id"></result>
+        <result column="buy_goods_number" jdbcType="INTEGER" property="buy_goods_number"></result>
+        <result column="goods_trad_ordercode" jdbcType="INTEGER" property="goods_trad_ordercode"></result>
+        <result column="status_code" jdbcType="INTEGER" property="status_code"></result>
+        <result column="realprice" jdbcType="INTEGER" property="realprice"></result>
+        <result column="total_money" jdbcType="INTEGER" property="total_money"></result>
+        <result column="addtime" jdbcType="DATE" property="addtime" ></result>
+
+    </resultMap>
+
+    <insert id="insert" parameterType="com.shop.entity.Goods_trad_record">
+        insert into goods_trad_record (id,goods_id,buyer_id,seller_id,buy_goods_number,goods_trad_ordercode,status_code,addtime,realprice,total_money)
+        values(#{id}, #{goods_id}, #{buyer_id}, #{seller_id}, #{buy_goods_number},#{goods_trad_ordercode}, #{status_code},#{addtime}, #{realprice}, #{total_money})
+    </insert>
+
+    <select id="getAll" resultType="com.shop.entity.Goods_trad_record">
+        select  * from goods_trad_record
+    </select>
+
+    <select id="getBy_buyer_id" parameterType="Integer" resultMap="baseResultMap">
+      select * from goods_trad_record where buyer_id = #{buyer_id}
+
+    </select>
+
+    <select id="getBy_status_code" parameterType="Integer" resultMap="baseResultMap">
+        select * from goods_trad_record
+        where status_code = #{status_code}
+    </select>
+
+</mapper>

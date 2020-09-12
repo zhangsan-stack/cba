@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.shop.mapper.CartMapper">
+    <resultMap id="BaseResultMap" type="com.shop.entity.Cart">
+        <result column="id" jdbcType="INTEGER" property="id"></result>
+        <result column="goods_id" jdbcType="INTEGER" property="goods_id"></result>
+        <result column="user_id" jdbcType="INTEGER" property="user_id"></result>
+        <result column="num" jdbcType="INTEGER" property="num"></result>
+        <result column="price" jdbcType="INTEGER" property="price"></result>
+        <result column="total_price" jdbcType="INTEGER" property="total_price"></result>
+        <result column="addtime" jdbcType="DATE" property="addtime"></result>
+        <association column="goods_id" property="goods" select="com.shop.mapper.GoodsMapper.getById" ></association>
+    </resultMap>
+
+    <select id="selectAll"  resultMap="BaseResultMap">
+        select * from cart
+    </select>
+
+    <select id="selectBy_user_id" resultMap="BaseResultMap">
+        select * from cart where user_id=#{user_id}
+    </select>
+
+    <insert id="addCart" parameterType="com.shop.entity.Cart">
+        insert into cart (id, goods_id, user_id, num, price,total_price, addtime)
+        values (#{id}, #{goods_id},#{user_id},#{num},#{price},#{total_price} ,#{addtime})
+
+    </insert>
+
+    <delete id="deleteById" parameterType="Integer">
+        delete from cart where id = #{cartid}
+    </delete>
+
+
+</mapper>

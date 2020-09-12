@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.shop.mapper.Item_orderMapper">
+    <resultMap id="BaseResultMap" type="com.shop.entity.Item_order">
+        <result column="id" jdbcType="INTEGER" property="id"></result>
+        <result column="item_id" jdbcType="INTEGER" property="item_id"></result>
+        <result column="user_id" jdbcType="INTEGER" property="user_id"></result>
+        <result column="ordercode" jdbcType="INTEGER" property="ordercode"></result>
+        <result column="addtime" jdbcType="DATE" property="addtime"></result>
+        <result column="total" jdbcType="INTEGER" property="total"></result>
+        <result column="isdelete" jdbcType="INTEGER" property="isdelete"></result>
+        <result column="status" jdbcType="INTEGER" property="status"></result>
+    </resultMap>
+
+    <resultMap id="BaseResultMap2" type="com.shop.entity.Item_order">
+        <result column="id" jdbcType="INTEGER" property="id"></result>
+        <result column="item_id" jdbcType="INTEGER" property="item_id"></result>
+        <result column="user_id" jdbcType="INTEGER" property="user_id"></result>
+        <result column="ordercode" jdbcType="INTEGER" property="ordercode"></result>
+        <result column="addtime" jdbcType="DATE" property="addtime"></result>
+        <result column="total" jdbcType="INTEGER" property="total"></result>
+        <result column="isdelete" jdbcType="INTEGER" property="isdelete"></result>
+        <result column="status" jdbcType="INTEGER" property="status"></result>
+        <association column="user_id" property="user"
+        select="com.shop.mapper.UserMapper.selectById"></association>
+    </resultMap>
+
+    <select id="selectAll" resultMap="BaseResultMap2">
+      select * from item_order
+
+    </select>
+    <select id="selectBy_user_id" parameterType="Integer" resultType="com.shop.entity.Item_order">
+        select * from item_order where user_id =#{user_id}
+
+
+    </select>
+
+
+</mapper>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.shop.mapper.MyCollectionMapper">
+   <resultMap id="BaseResultMap" type="com.shop.entity.MyCollection">
+        <result column="id" jdbcType="INTEGER" property="id"></result>
+        <result column="item_id" jdbcType="INTEGER" property="item_id"></result>
+        <result column="user_id" jdbcType="INTEGER" property="user_id"></result>
+   </resultMap>
+
+    <resultMap id="BaseResultMap2" type="com.shop.entity.MyCollection">
+        <result column="id" jdbcType="INTEGER" property="id"></result>
+        <result column="item_id" jdbcType="INTEGER" property="item_id"></result>
+        <result column="user_id" jdbcType="INTEGER" property="user_id"></result>
+        <association column="item_id"  property="item" select="com.shop.mapper.ItemMapper.selectById">
+
+        </association>
+    </resultMap>
+    <parameterMap id="BaseParameterMap" type="com.shop.entity.MyCollection">
+       <parameter property="id" jdbcType="INTEGER" ></parameter>
+       <parameter property="item_id" jdbcType="INTEGER"></parameter>
+       <parameter property="user_id" jdbcType="INTEGER"></parameter>
+    </parameterMap>
+
+    <select id="getBy_user_id" parameterType="Integer" resultMap="BaseResultMap2">
+        select * from mycollection where user_id = #{user_id}
+
+    </select>
+    <insert id="addCollection" parameterType="com.shop.entity.MyCollection" >
+        insert into mycollection (id, item_id, user_id)
+        values ( #{id},  #{item_id}, #{user_id})
+    </insert>
+
+
+</mapper>

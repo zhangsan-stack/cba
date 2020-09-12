@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.shop.mapper.ItemMapper">
+
+    <resultMap id="BaseResultMap" type="com.shop.entity.Item">
+        <result column="id" jdbcType="INTEGER" property="id"></result>
+        <result column="name" jdbcType="VARCHAR" property="name"></result>
+        <result column="price" jdbcType="INTEGER" property="price"></result>
+        <result column="discount" jdbcType="INTEGER" property="discount"></result>
+        <result column="collectionnum" jdbcType="INTEGER" property="collectionnum"></result>
+        <result column="buynum" jdbcType="INTEGER" property="buynum"></result>
+        <result column="url1" jdbcType="VARCHAR" property="url1"></result>
+        <result column="url2" jdbcType="VARCHAR" property="url2"></result>
+        <result column="url3" jdbcType="VARCHAR" property="url3"></result>
+        <result column="url4" jdbcType="VARCHAR" property="url4"></result>
+        <result column="url5" jdbcType="VARCHAR" property="url5"></result>
+        <result column="detail" jdbcType="VARCHAR" property="detail"></result>
+        <result column="param1" jdbcType="VARCHAR" property="param1"></result>
+        <result column="param2" jdbcType="VARCHAR" property="param2"></result>
+        <result column="param3" jdbcType="VARCHAR" property="param3"></result>
+        <result column="var1" jdbcType="VARCHAR" property="var1"></result>
+        <result column="var2" jdbcType="VARCHAR" property="var2"></result>
+        <result column="var3" jdbcType="VARCHAR" property="var3"></result>
+        <result column="type" jdbcType="INTEGER" property="type"></result>
+        <result column="category_id_one" jdbcType="INTEGER" property="category_id_one"></result>
+        <result column="category_id_two" jdbcType="INTEGER" property="category_id_two"></result>
+        <result column="isdelete" jdbcType="INTEGER" property="isdelete"></result>
+
+        <association property="first" column="category_id_one"
+        select="com.shop.mapper.Item_categoryMapper.selectById"></association>
+        <association property="second" column="category_id_two"
+        select="com.shop.mapper.Item_categoryMapper.selectById"></association>
+
+    </resultMap>
+    <resultMap id="BaseResultMap2" type="com.shop.entity.Item">
+        <result column="id" jdbcType="INTEGER" property="id"></result>
+        <result column="name" jdbcType="VARCHAR" property="name"></result>
+        <result column="price" jdbcType="INTEGER" property="price"></result>
+        <result column="discount" jdbcType="INTEGER" property="discount"></result>
+        <result column="collectionnum" jdbcType="INTEGER" property="collectionnum"></result>
+        <result column="buynum" jdbcType="INTEGER" property="buynum"></result>
+        <result column="url1" jdbcType="VARCHAR" property="url1"></result>
+        <result column="url2" jdbcType="VARCHAR" property="url2"></result>
+        <result column="url3" jdbcType="VARCHAR" property="url3"></result>
+        <result column="url4" jdbcType="VARCHAR" property="url4"></result>
+        <result column="url5" jdbcType="VARCHAR" property="url5"></result>
+        <result column="detail" jdbcType="VARCHAR" property="detail"></result>
+        <result column="param1" jdbcType="VARCHAR" property="param1"></result>
+        <result column="param2" jdbcType="VARCHAR" property="param2"></result>
+        <result column="param3" jdbcType="VARCHAR" property="param3"></result>
+        <result column="var1" jdbcType="VARCHAR" property="var1"></result>
+        <result column="var2" jdbcType="VARCHAR" property="var2"></result>
+        <result column="var3" jdbcType="VARCHAR" property="var3"></result>
+        <result column="type" jdbcType="INTEGER" property="type"></result>
+        <result column="category_id_one" jdbcType="INTEGER" property="category_id_one"></result>
+        <result column="category_id_two" jdbcType="INTEGER" property="category_id_two"></result>
+        <result column="isdelete" jdbcType="INTEGER" property="isdelete"></result>
+
+    </resultMap>
+
+
+    <select id="getAll" resultMap="BaseResultMap">
+        select * from item
+    </select>
+    <select id="selectById"  resultMap="BaseResultMap2">
+        select * from item where id=#{id}
+    </select>
+
+</mapper>
